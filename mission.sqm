@@ -8,14 +8,14 @@ class EditorData
 	toggles=10;
 	class ItemIDProvider
 	{
-		nextID=646;
+		nextID=647;
 	};
 	class Camera
 	{
-		pos[]={2009.3777,14.787245,2505.1487};
-		dir[]={-0.35472095,-0.50571573,-0.78640485};
-		up[]={-0.20793803,0.86269546,-0.46099174};
-		aside[]={-0.91156101,2.514571e-008,0.41117349};
+		pos[]={2009.4174,12.491104,2501.0901};
+		dir[]={-0.0091565307,-0.45202067,-0.89196044};
+		up[]={-0.0046400302,0.89200753,-0.45199689};
+		aside[]={-0.99994731,0,0.010265084};
 	};
 };
 binarizationWanted=0;
@@ -70,7 +70,8 @@ addons[]=
 	"ace_compat_rhs_afrf3",
 	"A3_Weapons_F_Enoch_Pistols_ESD",
 	"A3_Weapons_F",
-	"rhs_c_troops"
+	"rhs_c_troops",
+	"A3_Structures_F_Items_Tools"
 };
 class AddonsMetaData
 {
@@ -376,7 +377,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=535;
+		items=536;
 		class Item0
 		{
 			dataType="Object";
@@ -9414,6 +9415,22 @@ class Mission
 			};
 			id=645;
 			type="land_gm_tanktrap_02";
+		};
+		class Item535
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={2009.5569,11.943399,2499.4265};
+				angles[]={0,3.149596,-0};
+			};
+			side="Empty";
+			class Attributes
+			{
+			};
+			id=646;
+			type="Land_Grinder_F";
+			atlOffset=1.3715773;
 		};
 	};
 };

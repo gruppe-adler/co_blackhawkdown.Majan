@@ -41,6 +41,8 @@ fnc_grinderActivate = {
     private _identifier = format ["grad_grinder_%1_%2", position player, CBA_missionTime];
     [_identifier] remoteExec ["fnc_grindActivateLocal"];
 
+    [player, 150] call TFAR_ai_hearing_fnc_revealInArea;
+
     [{
         params ["_args", "_handle"];
         _args params ["_identifier"];
